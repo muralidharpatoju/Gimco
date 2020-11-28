@@ -1,0 +1,30 @@
+.body{
+  border: 10px solid black;
+}
+
+@media print {
+input#btnPrint {
+display: none;
+}
+}
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+  padding: 10px;
+}
+.bot{
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  float: right;
+}
+.form-group row{
+  padding-left: 1%;
+
+}
+#hideen{
+     display:none;
+     Logout.style.visibility = 'hidden';
+}
